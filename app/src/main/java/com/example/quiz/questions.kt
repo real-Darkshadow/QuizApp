@@ -11,8 +11,5 @@ class questions : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding=ActivityQuestionsBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val name=intent.getStringExtra("name").toString()
-        binding.t2.text=name
-
     }
 }
