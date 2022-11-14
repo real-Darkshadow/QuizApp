@@ -25,16 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:src="@drawable/ic_flag_of_argentina" />
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp" />
+        android:src="@drawable/ic_flag_of_argentina"
+        android:layout_marginBottom="50dp"/>
 
     <TextView
         android:id="@+id/option1"
