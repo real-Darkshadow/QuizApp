@@ -23,7 +23,9 @@ class MainActivity : AppCompatActivity() {
             if (binding.textField.editText?.text?.isEmpty() == true) {
                 Toast.makeText(this, "Enter Your Name", Toast.LENGTH_SHORT).show()
             } else {
+                val name=binding.textField.editText?.text.toString()
                 val intent: Intent = Intent(this, questions()::class.java)
+                intent.putExtra("name",name)
                 startActivity(intent)
             }
         }
